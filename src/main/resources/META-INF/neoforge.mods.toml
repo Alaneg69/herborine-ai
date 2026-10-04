@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "herobrine_ai"
+version = "1.0.0"
+displayName = "Herobrine AI"
+description = '''
+Herobrine, ktory sie uczy. Obserwuje Twoje reakcje i dobiera taktyki straszenia tak, zeby bylo coraz gorzej.
+'''
+
+[[dependencies.herobrine_ai]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.herobrine_ai]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
